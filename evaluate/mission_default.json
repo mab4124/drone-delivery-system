@@ -1,0 +1,10 @@
+{
+    "mission_id": "OP-DEFAULT",
+    "package": {
+        "type": "general_cargo",
+        "heavy": true,
+        "fragile": false,
+        "valuable": false,
+        "biohazard": false
+    }
+}

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  drone-delivery:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: autonomous-drone-delivery
+    volumes:
+      - ./training_set:/app/training_set:ro
+      - ./code:/app/code
+      - ./results:/app/results
+      - ./evaluation_results:/app/evaluation_results
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - drone-net
+
+networks:
+  drone-net:
+    driver: bridge
