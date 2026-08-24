@@ -21,9 +21,7 @@ RUNNING THE SYSTEM
 Option 1: Docker (Recommended)
 docker-compose up --build
 
-Option 2: Local Python
-cd d:\aip\aitapp2
-python code/main.py
+Option 2: Locally Python
 
 Option 3: With Custom Image
 python code/main.py --image path/to/image.jpg
