@@ -49,14 +49,12 @@ The images are labeled densely using polygons and contain the following 22 class
     found in "training_set/gt/bounding_box/bounding_boxes/person/"
 
 ## Contact
-
-aerial@icg.tugraz.at
+office.ivc@tugraz.at
 
 ## Citation
 
 If you use this dataset in your research, please cite the following URL:
-
-www.dronedataset.icg.tugraz.at
+https://ivc.tugraz.at/research-project/semantic-drone-dataset/
 
 ## License
 
